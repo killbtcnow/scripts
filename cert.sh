@@ -8,7 +8,7 @@ sudo systemctl restart nginx
 echo "--------------------"
 echo "set certbot"
 sudo certbot certonly --webroot --webroot-path=/var/www/html -d www.lazts.com
-sudo ls -l /etc/letsencrypt/live/lazts.com
+sudo ls -l /etc/letsencrypt/live/www.lazts.com
 sudo openssl dhparam -out /etc/ssl/certs/dhparam.pem 2048
 echo "--------------------"
 echo "set nginx"
