@@ -4,7 +4,7 @@ sudo apt-get update -y
 sudo apt-get upgrade -y
 sudo apt-get dist-upgrade -y
 
-npm update --global yarn pm2 serve
+npm update --global yarn
 sudo apt-get autoremove
 
 echo "--------------------"

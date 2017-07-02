@@ -7,8 +7,6 @@ sudo apt-get upgrade -y
 sudo apt-get dist-upgrade -y
 sudo apt-get install certbot nginx -y
 
-sudo cp -f /etc/nginx/sites-available/default /etc/nginx/sites-available/default.0.bak
-
 sudo apt-get purge nodejs=legacy
 wget https://nodejs.org/dist/v6.11.0/node-v6.11.0-linux-x64.tar.gz
 mkdir node
